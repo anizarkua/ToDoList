@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do List App</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h2>To-Do List</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tasks</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>My To-Do List</h1>
+    </header>
+
+    <main>
+        <form id="taskForm"></form>>
+        <input id="taskInput" type="text" placeholder="Enter a new task...">
+        <button type="submit"><i class="fas fa-plus"></i></button>
+        </form>
+
+        <ul class="task-list">
+            <li><strong>Example task:</strong> Learn French</li>
+            <li><em>practise with listenings</em></li>
+            <ul id="taskList" class="task-list"></ul>
+    </main>
+
+    <footer>
+        <p>Created by <strong>Ani</strong> • <a href="mailto:ani.zarkua1@gmail.com">ani.zarkua1@gmail.com</a></p>
+    </footer>
+</body>
+
+</html>
