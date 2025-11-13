@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="My To-Do List App">
+  <meta property="og:description" content="Simple and stylish To-Do List app created by Ani.">
+  <meta property="og:image" content="todo-preview.png">
+  <title>My To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">My To-Do</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Tasks</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <div class="burger"><i class="fas fa-bars"></i></div>
+    </nav>
+  </header>
+
+  <main>
+    <form id="taskForm">
+      <input id="taskInput" type="text" placeholder="Enter a new task...">
+      <button type="submit"><i class="fas fa-plus"></i></button>
+    </form>
+    <ul id="taskList" class="task-list"></ul>
+  </main>
+
+  <footer>
+    <p>Created by Ani Zarkua ✨</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
